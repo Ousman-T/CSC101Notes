@@ -1,2 +1,6 @@
-# CSC101Notes
-Notes for CSC 101 class
+# CSC 101 Notes
+
+# Chapter 1
+
+### 1.0 Introduction
+___
