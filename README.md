@@ -21,3 +21,13 @@ The study of algorithms began as a subject of mathematics, which held benefits l
 # Chapter 1: Data Storage
 ___
 ### Chapter 1.1: Bits and their storage.
+All data at it's lowest level is stored in encoded patterns of 0's and 1's, called **Bits(short for Binary Digit)**. They're used to represent many different forms of data, from numerics to sentences to images to sounds.
+
+With the use of 0's and 1's to represent data, 0's represent false and 1 represents true. This is **Boolean Operations**. These bits can be combined, evaluated, operated on, and manipulated in many different ways. We use **Boolean Logic** to evaluate bits (AND, OR, XOR).
+A device that produces the output of *boolean operations* when given input is called a **Logic Gate**. Usually made up of transistors, the binary digits 0 and 1 represent voltage levels. Gates provide the building blocks for computers. These gates can implement the logic of AND and OR in order to form larger gates called **flip-flops**, which are fundamental units in computer memory. Flip-flops are circuits that produce the output value of either 0 or 1, and stays constant until a pulse from another circuit causes the value to change.
+
+**Streams** are long strings of bits. Streams are difficult for humans to read and understand, so to simplify the representation of bit patterns, we use a short notation called **hexadecimal notation** which takes advantage of the fact that *bit patterns within computers tend to have lengths in the multiples of four*. Hex notation uses a single symbol to represent a pattern of four bits. *So a string of 12 bits can be represented by three hexadecimal symbols*.
+The image below represents the hexadecimal encoding system. The left column displays bit patterns in the lenth of four, while the right column shows the symbol used in hex notation to represent the bit pattern to the left. *This is done by dividing the left bit pattern into substrings of four, then representing each substring by it's hex equivalent. So 1011 is represented by 0xB.
+![alt text](image.png)
+___
+### 1.2: Main Memory
