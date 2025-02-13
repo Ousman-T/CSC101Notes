@@ -31,3 +31,6 @@ The image below represents the hexadecimal encoding system. The left column disp
 ![alt text](image.png)
 ___
 ### 1.2: Main Memory
++ Computers contain large collections of flip-flop like circuits that are capable of storing a single bit each. This *reservoir* of bits is known as the machine's **Main Memory**. The computer's main memory is organized in units called cells. Each cell typically stores 8 bits, **8 bits = 1 byte**. *Theoretically* bits within memory are stored from left to right. The leftmost bit is called the **most significant bit** due to the fact that it represents the most significant numeric value of a number (if 237 is stored in memory, the first bit would represent the two hundred).
+
+To locate cells that store specific value, we utilize **memory addressess**. With the use of memory addressess, we can then implement *read operations* (locating specific data based on their address). Or *write operations* (saving bit patterns/data into emptry memory cells). This also allows computers to access memory/data without relying on sequence hence **Random Access Memory or RAM**.
