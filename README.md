@@ -34,3 +34,24 @@ ___
 + Computers contain large collections of flip-flop like circuits that are capable of storing a single bit each. This *reservoir* of bits is known as the machine's **Main Memory**. The computer's main memory is organized in units called cells. Each cell typically stores 8 bits, **8 bits = 1 byte**. *Theoretically* bits within memory are stored from left to right. The leftmost bit is called the **most significant bit** due to the fact that it represents the most significant numeric value of a number (if 237 is stored in memory, the first bit would represent the two hundred).
 
 To locate cells that store specific value, we utilize **memory addressess**. With the use of memory addressess, we can then implement *read operations* (locating specific data based on their address). Or *write operations* (saving bit patterns/data into emptry memory cells). This also allows computers to access memory/data without relying on sequence hence **Random Access Memory or RAM**.
+___
+## 1.4: Representing Info as Bit Patterns
+Bits can be used to store information in many different forms. Layering the linear boolean logic in order to allow for more dynamic decision making is a great example of **abstraction**.
++ *Representing text with bits* uses a formal specific system known as **ASCII**. ASCII is built on and further improved. But it basically maps the full English alphabet and punctuation to different byte (8-bit) patterns.
++ *Representing Numeric Values* can be very tedious and inefficient if done the practical way. Which is why Computer Scientists employed **Binary Notation / Based2**. Using binary notation, any integer from 0-65535 can be stored within *16-bits*.
+Binary notation is a way of representing numbers using only the digits 0 and 1 instead of based 10 (0-9 tens twenties etc).
+___
+
+- Textbook Snippet:
+"Binary notation is a way of representing numeric values using only the digits 0 and 1 rather than the digits 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9 as in the traditional decimal, or base ten, system. We will study the binary system more thoroughly in Section 1.5. For now, all we need is an elementary understanding of the system. For this purpose, consider an old-fashioned car odometer whose display wheels contain only the digits 0 and 1 rather than the traditional digits 0 through 9. The odometer starts with a reading of all 0s, and as the car is driven for the first few miles, the rightmost wheel rotates from a 0 to a 1. Then, as that 1 rotates back to a 0, it causes a 1 to appear to its left, producing the pattern 10. The 0 on the right then rotates to a 1, producing 11. Now the rightmost wheel rotates from 1 back to 0, causing the 1 to its left to rotate to a 0 as well. This in turn causes another 1 to appear in the third column, producing the pattern 100. In short, as we drive the car, we see the following sequence of odometer readings:
+0000
+0001
+0010
+0011
+0100
+0101
+0110
+0111
+1000"
+___
+This convenient organizing of numbers allows us to represent the integers zero through eight with only zeros and ones. If we were to do this until we can't anymore, we'd get to the number 65535. *This is why numeric infomation is commonly stored in the form of binary notation, rather than a whole encoded system. We use **two complement notation for negative and postive numbers**, and **floating-point notation** for fractions and decimals.
